@@ -14,16 +14,16 @@ const contact = () => {
     const failed = document.getElementById("failed");
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_csfdEZiA', e.target, 'user_zu7p2b3lDibMCDutH5hif')
-      .then((result) => {
-          console.log(result.text);
-          success.classList.add('show');
-          button.classList.add('show');
-          failed.classList.remove('show');
-      }, (error) => {
-          console.log(error.text);
-          failed.classList.add('show');
-      });
+    // emailjs.sendForm('gmail', 'abdullahamer052@gmail.com', e.target, 'abdullahamer052@gmail.com')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //       success.classList.add('show');
+    //       button.classList.add('show');
+    //       failed.classList.remove('show');
+    //   }, (error) => {
+    //       console.log(error.text);
+    //       failed.classList.add('show');
+    //   });
   }
 
     return(
@@ -95,7 +95,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Email Me</h6>
-                                    <p>contact@kyrosnoriaki.com</p>
+                                    <p>abdullahamer052@gmail.com</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -106,7 +106,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Call Me</h6>
-                                    <p>+1 700 333 92 96</p>
+                                    <p>+92-3344123118</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -115,9 +115,9 @@ const contact = () => {
                                 data-aos-duration="1000"
                                 data-aos-easing="ease"
                                     >
-                                    <div className="wm-1"></div>
+                                    {/* <div className="wm-1"></div>
                                     <h6>Address</h6>
-                                    <p>Collins Street West, Louisiana, Bayerfurt, USA</p>
+                                    <p>Collins Street West, Louisiana, Bayerfurt, USA</p> */}
                                 </div>
                             </div>
                         </div>

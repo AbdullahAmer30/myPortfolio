@@ -61,77 +61,77 @@ const Gallery= function() {
                 </div>
                  <Masonry
                     className={"row my-gallery-class"} elementType={"div"}>
-                    <div className="col-lg-4 image-element-class de_modal de_modal" onClick={handleBtnClick}
+                    <div className="col-lg-4 image-element-class de_modal de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Archi Interior Design</h3>
+                                <h3>Ecommerce</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/1.jpg" alt="gallery"/>
+                            <img src="./img/gallery/ecommerce.png" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
+                    <div className="col-lg-4 image-element-class de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         > 
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Self Hosted Video</h3>
+                                <h3>Movie Finder</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/2.jpg" alt="gallery"/>
+                            <img src="./img/gallery/movie finder.png" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
+                    <div className="col-lg-4 image-element-class de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Justica Lawyer</h3>
+                                <h3>Diabetic Retinopathy Detection Application</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/3.jpg" alt="gallery"/>
+                            <img src="./img/gallery/fyp.png" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick}
+                    <div className="col-lg-4 image-element-class de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Bluetec App</h3>
+                                <h3>Online Quran learning web application</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/4.jpg" alt="gallery"/>
+                            <img src="./img/gallery/quranic.png" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
+                    <div className="col-lg-4 image-element-class de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Uhost Hosting</h3>
+                                <h3>Weather App</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/5.jpg" alt="gallery"/>
+                            <img src="./img/gallery/weather.png" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
+                    <div className="col-lg-4 image-element-class de_modal" 
                         data-aos="fade-up"
                         data-aos-once="true"
                         >
-                        <div className="card-image-1">
+                        {/* <div className="card-image-1">
                             <div className="d-text">
                                 <h3>Bolo Creative</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
                             <img src="./img/gallery/6.jpg" alt="gallery"/>
-                        </div>
+                        </div> */}
                     </div>
                   </Masonry>
 

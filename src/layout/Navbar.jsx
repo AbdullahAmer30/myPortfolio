@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-scroll";
+import './para.css'
 
 const Navbar = function () {
   const [showMenu, setMenu] = useState(false);
@@ -27,7 +28,12 @@ const Navbar = function () {
         <nav className="navbar transition">
         <div className="container">
           <Link  className="navbar-brand" activeClass="active" spy to="hero-area">
-            <img src="./img/logo.png" className="img-fluid d-block imginit" alt="logo"/>
+          <div className="main">
+          <img src="./img/A.png" className="img-fluid d-flex imginit" style={{width:'50px'}}alt="logo"/>
+          <h5 className="img-fluid d-flex imginit para">Abdullah Amer</h5>
+          </div>
+          
+            {/* <img src="./img/A.png" className="img-fluid d-block imginit" style={{width:'50px'}}alt="logo"/> */}
             <img src="./img/logo-3.png" className="img-fluid imgsaly" alt="logo"/>
             <img src="./img/logo-6.png" className="img-fluid imggrey" alt="logo"/>
             <img src="./img/logo-7.png" className="img-fluid imgchef" alt="logo"/>
@@ -58,7 +64,7 @@ const Navbar = function () {
                   Portofolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="resume">
                   My resume
                 </Link>
@@ -67,7 +73,7 @@ const Navbar = function () {
                 <Link className="nav-link transition" activeClass="active" spy to="blog">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="contact">
                   Contact Me
@@ -101,7 +107,7 @@ const Navbar = function () {
                   Portofolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="resume">
                   My resume
                 </Link>
@@ -110,7 +116,7 @@ const Navbar = function () {
                 <Link className="nav-link transition"smooth activeClass="active" spy to="blog">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="contact">
                   Contact Me

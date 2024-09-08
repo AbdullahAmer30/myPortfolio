@@ -37,10 +37,7 @@ const hero = () => {
                     data-aos-easing="ease"
                     data-aos-once="true"
 	            	>
-	            	<p>I am a website designer from Lousiana, with a strong focus in UI/UX design. 
-	                I love to get new experiences and always learn from my surroundings. 
-	                I've done more than 285 projects. You can check it through portfolio section on
-	                this website. I looking forward to any opportunities and challenges. 
+	            	<p>I am a Frontend Developer  with a strong focus on UI/UX design and building responsive, user-friendly applications using React. I’m passionate about creating seamless digital experiences that not only look great but function smoothly. I thrive on new challenges and constantly seek opportunities to expand my skill set. Check out my portfolio to see my work in action!
                      </p>
 	            </div>
 			</div>

@@ -62,7 +62,7 @@ const whatido = () => {
                     >
                     <div className="de_3d-box">
                         <div className="d-inner">
-                            <i className="icon_camera_alt id-color-2"></i>
+                            {/* <i className="icon_camera_alt id-color-2"></i> */}
                             <div className="text">
                                 <h3>SQA analyst</h3>
                                 As an SQA specialist, I ensure top-notch software quality through Developing and executing test plans for functional, performance, and security aspects.

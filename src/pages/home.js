@@ -66,15 +66,15 @@ function home() {
       </section>
 
       {/* Gallery */}
-      <section id="resume" className="pb-0">
+      {/* <section id="resume" className="pb-0">
         <Resume/>
         <Counter/>
-      </section>
+      </section> */}
 
       {/* Gallery */}
-      <section id="blog" className="pb-0">
+      {/* <section id="blog" className="pb-0">
         <Blog/>
-      </section>
+      </section> */}
 
       {/* contact */}
       <section id="contact" className="pb-0">
